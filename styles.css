@@ -1,0 +1,57 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(116, 29, 70);
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  /* Timer container */
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  /* Photos on the sides */
+  .side-photo {
+    width: 300px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Center timer styling */
+  #timer {
+    font-size: 1.5rem;
+    margin: 0 20px;
+  }
+  
+/* Container for photo below the timer and the two GIFs */
+.photo-and-gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Side GIFs styling */
+  .side-gif {
+    width: 300px;
+    margin: 0 70px;
+    border-radius: 10px;
+  }
+  
+  /* Photo underneath the timer */
+  .photo-below {
+    width: 500px;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
