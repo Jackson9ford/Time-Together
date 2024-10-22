@@ -9,7 +9,20 @@ body {
     text-align: center;
     flex-direction: column;
   }
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000; /* Optional: Set a color if needed */
+  }
   
+  /* Styles for Smaller Screens (Mobile) */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5em; /* Reduce font size on small screens */
+      margin: 10px 0;  /* Adjust margins for better spacing */
+    }
+  }
   /* Timer container */
   .timer-container {
     display: flex;
