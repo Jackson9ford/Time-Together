@@ -55,3 +55,32 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
+
+/* Styles for Smaller Screens (iPhone) */
+@media only screen and (max-width: 600px) {
+  .timer-container {
+    flex-direction: column;
+  }
+
+  .side-photo {
+    width: 100px; /* Smaller side images */
+    margin: 10px 0;
+  }
+
+  .photo-and-gif-container {
+    flex-direction: column;
+  }
+
+  .photo-below {
+    width: 80%;
+  }
+
+  .side-gif {
+    width: 80px;
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
